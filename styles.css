@@ -13,29 +13,22 @@ html * {
 }
 
 .backg-img {
-    background-image: url(fondo2.png);
+    background-image: url(/pictures/fondo2.png);
     background-size: cover;
 }
 
 .body {
     display: flex;
     flex-direction: column;
-    /* border: 7px solid green; */
 }
-
-.body > * {
-     /* border: 5px dotted red; */
-} 
 
 .nav {
     display: flex;
-    /* border: 10px solid green; */
     flex-direction: column;
 }
 
 /* Nav Bar */
 .nav-bar {
-    /* border: 10px dotted red; */
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -44,7 +37,6 @@ html * {
 }
 
 .nav-bar li {
-    /* border: 3px solid yellow; */
     border-right: 2px solid rgba(230, 227, 227, 0.397);
     display:flex;
     align-items: stretch;
@@ -56,7 +48,6 @@ html * {
 
 .nav-bar li a {
     padding: 0.5rem 1rem 0.5rem;
-    /* border: 1px dotted white; */
     background-color: rgba(212, 179, 179, 0.397);
     color: white;
     text-decoration: none;
@@ -66,28 +57,24 @@ html * {
 
 .personal {
     padding: 5% 10% 0%;
-    /* border: 10px dotted red; */
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
 .personal img {
-    /* border: 5px solid yellow; */
     max-block-size: 12rem;
     border-radius: 100rem;
-    /* border: 5px solid darkred; */
     background-color: rgba(87, 0, 0, 0.26);
 }
 
 .personal p {
     padding: 1rem;
-    font-size: 20px;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 0 rgb(233, 160, 160);
     color: rgb(153, 11, 11);
     font-weight: bold;
-    /* border: 5px solid yellow; */
 }
 
 /* Second section */
@@ -98,7 +85,7 @@ html * {
     justify-content: center;
 }
 
-.studies h1 {
+.studies > h2 {
     font-weight: bold;
 }
 
@@ -118,17 +105,27 @@ html * {
     padding: 1rem 0 1rem;
 }
 
-.studies h2 {
+.studies h3 {
     border-bottom: 3px solid rgba(151, 151, 151, 0.301);
     padding-bottom: 0.3rem;
     margin-bottom: 0.3rem;
+}
+
+.studies h4 {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.studies img {
+    block-size: 4rem;
+    text-align: center;
 }
 
 /* Knowledge section */
 
 .knowledge {
     /* background-color: #b27f7f; */
-    background-image: url(fondo5.png);
+    background-image: url(/pictures/fondo5.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -148,7 +145,7 @@ html * {
     margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: #843232;
+    background-color: #843232af;
     color: rgb(202, 197, 197);
     flex-basis: 10rem;
     display: flex;
@@ -264,11 +261,7 @@ progress {
 }
 
 .pictures img {
-    /* border-radius: 5px; */
-    block-size: 10rem;+
-
-    /* border: 5px solid rgba(230, 227, 227, 0.397); */
-    /* padding: 0.5rem; */
+    block-size: 10rem;
 }
 
 /* footer */
@@ -292,7 +285,13 @@ progress {
 .footer-list a {
     color: rgb(202, 197, 197);
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+.footer h3 {
+    margin-bottom: 0.5rem;
 }
 
 
